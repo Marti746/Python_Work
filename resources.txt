@@ -1,0 +1,9 @@
+Variables and Operations
+- https://learn-python.adamemery.dev/operators_and_expressions
+
+Online Resources
+- https://www.freecodecamp.org/news/the-python-handbook/
+- https://www.piratekingdom.com/curriculum/software-development
+
+Video Resources
+- https://www.youtube.com/watch?v=eWRfhZUzrAc
