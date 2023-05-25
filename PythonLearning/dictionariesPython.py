@@ -23,3 +23,32 @@ print(dog.get("color", "yellow"))
 
 # dictionaries also have a pop() method just like that of the list
 # dog.pop("name") will get us Benny and also removes it from the dictionary
+
+# can also use popitem()
+# it will retrieve and remove the last key:item pair in the dictionary
+#print(dog.popitem())
+
+# can use the in operator to see if a key is contained in a dictionary
+print("color" in dog)
+print(dog.keys()) # will print a list of all the keys within a dictionary called dict_keys
+print(list(dog.keys())) # passing it into a list will return an actual list of all the key names
+
+# can also do this with values
+print(dog.values())
+print(list(dog.values()))
+
+# using the item() method will retrieve all the items within the dictionary and return them all within a list
+print(list(dog.items()))
+print(len(dog))
+
+# adding a new key : item pair to the dictionary
+dog["favorite food"] = "Meat"
+print(dog)
+
+# can also delete a key : item pair
+# del dog['color']
+# using the del will delete the key : value pair from the dictionary
+
+# Copying a dictionary is not to hard
+# copying a dictionary to another dictionary is as easy as using the .copy() function
+# dogCopy = dog.copy()
