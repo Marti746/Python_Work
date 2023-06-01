@@ -52,3 +52,20 @@ print(dog)
 # Copying a dictionary is not to hard
 # copying a dictionary to another dictionary is as easy as using the .copy() function
 # dogCopy = dog.copy()
+
+
+# card_dealt = deal(2)
+# card = card_dealt[0]
+# rank = card[1]
+
+# # add if statement to check to see if the rank is A and assign the value
+# if rank == "A":
+#     value = 11
+# elif rank == "J" or rank == "Q" or rank == "K":
+#     value = 10
+# else:
+#     value = rank
+
+# rank_dict = {"rank" : rank, "value": value}
+
+# print(rank_dict["rank"], rank_dict["value"])
