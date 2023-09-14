@@ -1,7 +1,7 @@
 import random
 
 # Opens the text file with the path
-words = open("PythonLearning/mini_projects/valid-wordle-words.txt", "r").read().splitlines() 
+words = open("PythonLearning/Projects/valid-wordle-words.txt", "r").read().splitlines() 
 
 # Instructions for the game wrapped in """ to show the metrics and grading
 def game_instruction():
