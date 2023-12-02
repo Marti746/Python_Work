@@ -1,6 +1,6 @@
 # This is string work and multi line strings
 # This is multi line strings
-print("""David is
+print("""Cidoo is
 
 22
 
@@ -8,9 +8,9 @@ years old
 """) # Will print just like this can also use single quotes as long as its 3
 
 # String methods
-print("david".upper()) # also has a .lower()
-print("david".title()) # makes the first letter of each word capital
-print("DaVid".islower()) # tests to see if all are lower same with upper .isupper()
+print("cidoo".upper()) # also has a .lower()
+print("cidoo".title()) # makes the first letter of each word capital
+print("CiDoO".islower()) # tests to see if all are lower same with upper .isupper()
 
 # all of these below methods return a new modified string and doesnt change the original string
 
@@ -29,10 +29,10 @@ print("DaVid".islower()) # tests to see if all are lower same with upper .isuppe
 # len(str) gives the length of the string
 
 # This is a example to show
-name = "David"
+name = "Cidoo"
 print(name.lower())
 print(len(name))
-print("vi" in name) # sees if vi is within the name
+print("id" in name) # sees if vi is within the name
 
 newName = "Dav\"id" # with adding the back slash to the string it tells python to just ignore the middle quote
 # can also do a single quote at the beginning and end then a double quote you dont need the backslash

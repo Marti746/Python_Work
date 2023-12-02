@@ -8,7 +8,7 @@
 # Supports 4 different numerical types int,long,float,complex
 
 my_age = 22
-my_name = "David"
+my_name = "Zynda"
 my_major = "Computer Science"
 my_money = 420.69
 
@@ -18,7 +18,7 @@ print(f"My name is {my_name}. I am {my_age} and I am currently studying \
 
 
 # variables can all be assigned on same line too
-a,b,c = 1,2,"David"
+a,b,c = 1,2,"Benny"
 print(a, b, c)
 
 # Using the del function can delete a variable
