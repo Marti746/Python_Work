@@ -45,7 +45,7 @@ while True:
  
     end = time.time()
  
-    # We will scroll for 20 seconds.
+    # We will scroll for 45 seconds.
     # You can change it as per your needs and internet speed
     if round(end - start) > 45:
         break
