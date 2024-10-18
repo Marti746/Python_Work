@@ -6,6 +6,9 @@ def Download(link):
     # youtubeObject = youtubeObject.streams.filter(res="720p") # gets a 720p resolution
     try:
         youtubeObject.download()
+        # Specify a download path
+        # youtubeObject.download(output_path='your_directory_path_here')
+        print("Download is completed successfully")
     except:
         print("An error has occured while downloading")
     
