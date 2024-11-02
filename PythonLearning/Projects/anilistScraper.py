@@ -10,6 +10,7 @@ put all that into an excel spreadsheet with the labels of Name, Score, Episodes
 '''
 
 # create a xl file
+# Titles excel sheet and adds 3 columns (Name, Score, and Ep count)
 excel = openpyxl.Workbook()
 sheet = excel.active
 sheet.title = 'My Completed Shows'
@@ -18,6 +19,7 @@ sheet.append(['Name', 'Score', 'Episodes'])
 # driver = webdriver.ChromeOptions()
 # driver.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome()
+# https://anilist.co/user/(username here)/animelist
 driver.get("https://anilist.co/user/(username here)/animelist")
 time.sleep(3)
 # scroll to the bottom of the page
@@ -45,9 +47,9 @@ while True:
  
     end = time.time()
  
-    # We will scroll for 45 seconds.
+    # We will scroll for 55 seconds.
     # You can change it as per your needs and internet speed
-    if round(end - start) > 45:
+    if round(end - start) > 55:
         break
 
 src = driver.page_source
